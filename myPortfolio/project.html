@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link rel="icon" type="img/png" href="img/logo.png">
+    <script src="js/script.js" defer></script>
+    <title>Projects</title>
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+      <ul>
+        <li><a href="#">Updates</a></li>
+
+        <li class="mobile-only"><a href="aboutme.html">About me</a></li>
+        <li class="mobile-only">
+          <a href="project.html">Projects</a>
+        </li>
+        <li class="mobile-only"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <header class="main-header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/20190826_115555-PhotoRoom (13).png" alt="Portfolio" />
+        </a>
+      </div>
+      <nav class="desktop-main-menu">
+        <ul>
+          <li><a href="aboutme.html">About me</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hamburger Menu -->
+    <button id="menu-btn" class="hamburger" type="button">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
+
+    <section class="section-animate bg-project"></section>
+    <div class="section-inner-center">
+      <h3>Projects</h3>
+      <a href="" class="btn">
+        <div class="hover"></div>
+          <span>Here <br> V</span>
+        </a>
+    </div>
+
+    <h2>FILTER THE IMAGES</h2>
+
+    <input type="radio" id="all" name="button" checked>
+    <input type="radio" id="django" name="button">
+    <input type="radio" id="other" name="button">
+    <input type="radio" id="angular" name="button">
+    
+    <label class="tag all" for="all">ALL</label>
+    <label class="tag tag1" for="django">DJANGO</label>
+    <label class="tag tag2" for="other">OTHER</label>
+    <label class="tag tag3" for="angular">ANGULAR</label>
+    <br>
+
+    <div class="images">
+    
+            <img src="img/django_welcomemobileview.jpg"  class="django">
+            <img src="img/django_addmovies.jpg"  class="django">
+            <img src="img/django_createmovies.jpg"  class="django">
+        
+
+    
+            <img src="https://source.unsplash.com/eqXiLNfZDc0"  class="other">
+            <img src="https://source.unsplash.com/7_TTPznVIQI"  class="other">
+        
+
+    
+            <img src="img/angular_singin.jpg"  class="angular">
+            <img src="img/angular_form1.jpg"  class="angular">
+            <img src="img/angular_formfill.jpg"  class="angular">
+            <img src="img/angular_form.jpg"  class="angular">
+
+        
+    </div>
+
+    <footer>
+      <ul>
+        <li>Portfolio &copy; 2022</li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

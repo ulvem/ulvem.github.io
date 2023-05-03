@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    margin: 0px 2em;
+    font-family: arial;
+}
+
+input{
+    display: none;
+}
+
+.tag{
+    font-size: 20px;
+    margin: 1.5em 0px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    background: #efefef;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+img{
+    max-width: 400px;
+    width: 400px;
+    height: 320px;
+    transition: all .4s ease-in-out;
+}
+/*filter CSS */
+
+ #django:checked ~ .images > img:not([class*='django']),
+ #other:checked ~ .images > img:not([class*='other']),
+ #angular:checked ~ .images > img:not([class*='angular']){
+   width: 0px;
+   height: 0px;
+}
+
+#all:checked ~ .all,
+#django:checked ~ .tag1, 
+#other:checked ~ .tag2,
+#angular:checked ~ .tag3{
+    background-color: #333333;      
+    color: white;
+} 
